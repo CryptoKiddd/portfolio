@@ -11,6 +11,23 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  scrollbar-width: 3px;
+  scrollbar-color: transparent
+}
+*::-webkit-scrollbar {
+  width: 2px;
+  border-radius: 3px;
+}
+*::-webkit-scrollbar-track {
+  background:transparent;
+  border-radius: 13px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 13px;
+
+  
 }
 
 .hash-span {
